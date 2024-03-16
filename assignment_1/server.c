@@ -44,7 +44,7 @@ int main(int argc, char *argv[]){
 
 		while((str_len = read(clnt_sock, message, BUF_SIZE)) != 0){
 			if(!strcmp(message, "hello\n")) write(clnt_sock, reply, strlen(reply));
-			else write(clnt_sock, message, str_len);
+			else write(clnt_sock, "Message isn't hello\n", strlen("Message isn't hello\n"));
 		}
 		
 		close(clnt_sock);
