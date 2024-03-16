@@ -1,0 +1,5 @@
+echo_server, echo_client c언어 코드를 사용하여
+client에서 server로 [hello]를 전송했을때
+server에서 client로 [학과 학번 한글이름]을 돌려주는
+code를 작성하시오
+제출물: server, client c언어 코드 & 실행화면
